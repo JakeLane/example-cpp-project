@@ -31,8 +31,7 @@ void Polygon::setWidth(int width) {
 	m_width = width;
 }
 
-// Returns the area. NOTE: This is a polymorphic function, and individual classes might have their own implementation.
-int Polygon::area()
-{
-	return m_height * m_height;
+// This runs if there is no child class (polymorphism) so we return an invalid area
+float Polygon::area() {
+	return -1;
 }

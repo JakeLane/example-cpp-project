@@ -1,22 +1,22 @@
 // Example Project
 // Author: Jake Lane
 // Student ID: a1686679
-// Description: Triangle header
+// Description: Rectangle header
 
-#ifndef TRIANGLE_H_
-#define TRIANGLE_H_
+#ifndef RECTANGLE_H_
+#define RECTANGLE_H_
 
 #include "Polygon.h"
 
-class Triangle: public Polygon {
+class Rectangle: public Polygon {
 public:
 	// Constructor
-	Triangle(int height, int width);
+	Rectangle(int height, int width);
 	// Trivial Destructor
-	~Triangle();
+	~Rectangle();
 
 	// Area method (polymorphic)
 	float area();
 };
 
-#endif // TRIANGLE_H_
+#endif // SQUARE_H_

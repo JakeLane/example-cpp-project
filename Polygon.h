@@ -22,7 +22,7 @@ public:
 	void setWidth(int width);
 
 	// Virtual area method
-	virtual int area();
+	virtual float area();
 
 protected:
 	// Member variables
@@ -30,4 +30,4 @@ protected:
 	int m_width;
 };
 
-#endif  // POLYGON_H_
+#endif // POLYGON_H_

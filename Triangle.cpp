@@ -12,6 +12,6 @@ Triangle::Triangle(int height, int width): Polygon(height, width) {}
 Triangle::~Triangle() {}
 
 // Returns the area of the triangle
-int Triangle::area() {
-	return m_height * m_width / 2;
+float Triangle::area() {
+	return m_height * m_width / 2.000;
 }

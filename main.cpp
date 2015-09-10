@@ -6,13 +6,12 @@
 #include <iostream>
 
 #include "Polygon.h"
-#include "Square.h"
+#include "Rectangle.h"
 #include "Triangle.h"
 
 // Prints out some details on a Polygon.
-// Note that it's not passing through a particular Polygon (like Triangle or Square), rather it's the parent.
-void printDetails(Polygon* shape)
-{
+// Note that it's not passing through a particular Polygon (like Triangle or Rectangle), rather it's the parent.
+void printDetails(Polygon* shape) {
 	std::cout << "Height: " << shape->getHeight();
 	std::cout << ", Width: " << shape->getWidth();
 
@@ -23,7 +22,7 @@ void printDetails(Polygon* shape)
 
 int main() {
 	// Create a square on the heap with a height of 5 and a width of 6
-	Polygon* square = new Square(5, 6);
+	Polygon* square = new Rectangle(5, 6);
 	// Print information using getters and method
 	printDetails(square);
 	// Set the height to 10 with a setter
@@ -35,8 +34,8 @@ int main() {
 	// Cleanup the memory in the heap
 	delete square;
 
-	// Create a triangle on the heap with a height of 7 and a width of 8
-	Polygon* triangle = new Triangle(7, 8);
+	// Create a triangle on the heap with a height of 7 and a width of 9
+	Polygon* triangle = new Triangle(7, 9);
 	// Print information using getters and method
 	printDetails(triangle);
 	// Set the height to 3 with a setter
