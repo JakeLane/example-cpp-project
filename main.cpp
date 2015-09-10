@@ -33,6 +33,7 @@ int main() {
 	triangle->setWidth(4);
 	// Print information using getters and method
 	std::cout << "Height: " << triangle->getHeight() << ", Width: " << triangle->getHeight() << ", Area: " << triangle->area() << std::endl;
+	// Cleanup the memory in the heap
 	delete triangle;
 
 	return 0;

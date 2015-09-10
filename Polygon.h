@@ -8,7 +8,9 @@
 
 class Polygon {
 public:
+	// Constructor
 	Polygon(int height, int width);
+	// Destructor
 	~Polygon();
 	
 	// Getters
@@ -19,7 +21,7 @@ public:
 	void setHeight(int height);
 	void setWidth(int width);
 
-	// Methods
+	// Virtual area method
 	virtual int area() = 0;
 
 protected:

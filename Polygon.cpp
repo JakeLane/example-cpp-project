@@ -11,18 +11,22 @@ Polygon::Polygon(int height, int width): m_height(height), m_width(width) {}
 // Destructor
 Polygon::~Polygon() {}
 
+// Return the polygon height
 int Polygon::getHeight() {
 	return m_height;
 }
 
+// Return the polygon width
 int Polygon::getWidth() {
 	return m_width;
 }
 
+// Set the polygon height
 void Polygon::setHeight(int height) {
 	m_height = height;
 }
 
+// Set the polygon width
 void Polygon::setWidth(int width) {
 	m_width = width;
 }
