@@ -21,18 +21,18 @@ void printDetails(Polygon* shape) {
 }
 
 int main() {
-	// Create a square on the heap with a height of 5 and a width of 6
-	Polygon* square = new Rectangle(5, 6);
+	// Create a rectangle on the heap with a height of 5 and a width of 6
+	Polygon* rectangle = new Rectangle(5, 6);
 	// Print information using getters and method
-	printDetails(square);
+	printDetails(rectangle);
 	// Set the height to 10 with a setter
-	square->setHeight(10);
+	rectangle->setHeight(10);
 	// Set the width to 10 with a setter
-	square->setWidth(10);
+	rectangle->setWidth(10);
 	// Print information using getters and method
-	printDetails(square);
+	printDetails(rectangle);
 	// Cleanup the memory in the heap
-	delete square;
+	delete rectangle;
 
 	// Create a triangle on the heap with a height of 7 and a width of 9
 	Polygon* triangle = new Triangle(7, 9);
