@@ -11,7 +11,7 @@ Rectangle::Rectangle(int height, int width): Polygon(height, width) {}
 // Destructor
 Rectangle::~Rectangle() {}
 
-// Returns the area of the square
+// Returns the area of the rectangle
 float Rectangle::area() {
 	return m_height * m_width;
 }

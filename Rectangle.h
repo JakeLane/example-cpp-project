@@ -19,4 +19,4 @@ public:
 	float area();
 };
 
-#endif // SQUARE_H_
+#endif // RECTANGLE_H_
