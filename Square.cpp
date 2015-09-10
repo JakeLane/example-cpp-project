@@ -10,8 +10,3 @@ Square::Square(int height, int width): Polygon(height, width) {}
 
 // Destructor
 Square::~Square() {}
-
-// Returns the area of the square
-int Square::area() {
-	return m_height * m_width;
-}
