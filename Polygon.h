@@ -22,7 +22,7 @@ public:
 	void setWidth(int width);
 
 	// Virtual area method
-	virtual int area() = 0;
+	virtual int area();
 
 protected:
 	// Member variables

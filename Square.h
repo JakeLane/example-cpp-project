@@ -14,9 +14,7 @@ public:
 	Square(int height, int width);
 	// Trivial Destructor
 	~Square();
-
-	// Area method (polymorphic)
-	int area();
+	
 };
 
 #endif  // SQUARE_H_
