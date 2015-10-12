@@ -6,7 +6,7 @@
 #ifndef RECTANGLE_H_
 #define RECTANGLE_H_
 
-#include "Polygon.h"
+#include "Polygon.hpp"
 
 class Rectangle: public Polygon {
 public:

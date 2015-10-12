@@ -6,7 +6,7 @@
 #ifndef TRIANGLE_H_
 #define TRIANGLE_H_
 
-#include "Polygon.h"
+#include "Polygon.hpp"
 
 class Triangle: public Polygon {
 public:

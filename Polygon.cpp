@@ -3,7 +3,7 @@
 // Student ID: a1686679
 // Description: Polygon class
 
-#include "Polygon.h"
+#include "Polygon.hpp"
 
 // Constructor for Polygon
 Polygon::Polygon(int height, int width): m_height(height), m_width(width) {}

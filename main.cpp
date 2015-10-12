@@ -5,9 +5,9 @@
 
 #include <iostream>
 
-#include "Polygon.h"
-#include "Rectangle.h"
-#include "Triangle.h"
+#include "Polygon.hpp"
+#include "Rectangle.hpp"
+#include "Triangle.hpp"
 
 // Prints out some details on a Polygon.
 // Note that it's not passing through a particular Polygon (like Triangle or Rectangle), rather it's the parent.

@@ -3,7 +3,7 @@
 // Student ID: a1686679
 // Description: Rectangle class
 
-#include "Rectangle.h"
+#include "Rectangle.hpp"
 
 // Constructor for Rectangle
 Rectangle::Rectangle(int height, int width): Polygon(height, width) {}
